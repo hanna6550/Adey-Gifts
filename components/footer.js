@@ -44,7 +44,7 @@ function Footer() {
                 })}
               </div>
               <p className="text-[16px] font-medium text-[#646464]">
-                Privacy Policy | © {new Date().getFullYear()} Gymate <br />{" "}
+                Copyright | © {new Date().getFullYear()} Adey Gifts. All rights reserved.<br />{" "}
                 Design by{" "}
                 <a
                   target="_blank"
@@ -104,7 +104,6 @@ function Footer() {
             <span></span>
           </div>
         </div>
-        <div className='mx-auto'>Copyright © 2024 Adey Gifts. All rights reserved.</div>
       </footer>
     </>
   );

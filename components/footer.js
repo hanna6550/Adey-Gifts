@@ -1,8 +1,11 @@
 import React from 'react'
 
 function Footer() {
-  return (
-    <div className="bg-black text-white h-10">Footer</div>
+  return (<>
+    <div className="fixed flex items-center w-full  p-4  text-white bg-black bottom-5">
+    <div class="text-sm font-normal">Bottom left positioning.</div>
+    </div>
+    </>
   )
 }
 

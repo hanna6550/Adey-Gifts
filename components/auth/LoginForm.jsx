@@ -45,7 +45,7 @@ export default function LoginForm() {
               onChange={(e) => setUserName(e.target.value)}
               type="text"
               placeholder="Email"
-              className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-green-400"
+              className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-yellow-400"
             />
           </div>
           <div>
@@ -54,12 +54,12 @@ export default function LoginForm() {
               onChange={(e) => setPassword(e.target.value)}
               type="password"
               placeholder="Password"
-              className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-green-400"
+              className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-yellow-400"
             />
           </div>
           <button
             type="submit"
-            className="w-full bg-green-600 text-white font-bold py-2 px-4 rounded-lg hover:bg-green-700 transition duration-300"
+            className="w-full bg-green-600 text-white font-bold py-2 px-4 rounded-lg hover:bg-yellow-700 transition duration-300"
           >
             Login
           </button>

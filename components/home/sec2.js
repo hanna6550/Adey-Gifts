@@ -94,7 +94,7 @@ function Sec2() {
       {/* ))} */}
       </div>
 
-      <div className="mt-10 mb-16 flex justify-center">
+      <div className="md:mt-10 mt-6 md:mb-16 mb-10 flex justify-center">
         <button className='md:px-8 px-6 md:py-3 py-2 md:text-2xl text-xl font-semibold border-yellow-300 border text-center text-black rounded-xl'>
               See More
         </button>

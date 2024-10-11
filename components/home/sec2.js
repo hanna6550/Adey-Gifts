@@ -63,32 +63,32 @@ function Sec2() {
         </div> */}
 
         <div className="border border-gray-400 rounded-3xl">
-        <Image alt='adey photo' src={Img1} className='md:h-96 h-60 w-full rounded-t-3xl' />
-        <h1 className="text-center font-medium text-2xl py-3">Note Book</h1>
+        <Image alt='adey photo' src={Img1} className='md:h-96 h-52 w-full rounded-t-3xl' />
+        <h1 className="text-center font-medium md:text-2xl text-xl md:py-3 py-2">Note Book</h1>
         </div>
         <div className="border border-gray-400 rounded-3xl">
-        <Image alt='adey photo' src={Img3} className='md:h-96 h-60 w-full rounded-t-3xl' />
-        <h1 className="text-center font-medium text-2xl py-3">Leather Print</h1>
+        <Image alt='adey photo' src={Img3} className='md:h-96 h-52 w-full rounded-t-3xl' />
+        <h1 className="text-center font-medium md:text-2xl text-xl md:py-3 py-2">Leather Print</h1>
         </div>
         <div className="border border-gray-400 rounded-3xl">
-        <Image alt='adey photo' src={Img2} className='md:h-96 h-60 w-full rounded-t-3xl' />
-        <h1 className="text-center font-medium text-2xl py-3">Glass Print</h1>
+        <Image alt='adey photo' src={Img2} className='md:h-96 h-52 w-full rounded-t-3xl' />
+        <h1 className="text-center font-medium md:text-2xl text-xl md:py-3 py-2">Glass Print</h1>
         </div> 
         <div className="border border-gray-400 rounded-3xl">
-        <Image alt='adey photo' src={Img6} className='md:h-96 h-60 w-full rounded-t-3xl' />
-        <h1 className="text-center font-medium text-2xl py-3">Couch Pillow</h1>
+        <Image alt='adey photo' src={Img6} className='md:h-96 h-52 w-full rounded-t-3xl' />
+        <h1 className="text-center font-medium md:text-2xl text-xl md:py-3 py-2">Couch Pillow</h1>
         </div>
         <div className="border border-gray-400 rounded-3xl">
-        <Image alt='adey photo' src={Img4} className='md:h-96 h-60 w-full rounded-t-3xl' />
-        <h1 className="text-center font-medium text-2xl py-3">Glass Print</h1>
+        <Image alt='adey photo' src={Img4} className='md:h-96 h-52 w-full rounded-t-3xl' />
+        <h1 className="text-center font-medium md:text-2xl text-xl md:py-3 py-2">Glass Print</h1>
         </div>
         <div className="border border-gray-400 rounded-3xl">
-        <Image alt='adey photo' src={Img5} className='md:h-96 h-60 w-full rounded-t-3xl' />
-        <h1 className="text-center font-medium text-2xl py-3">Leather Print</h1>
+        <Image alt='adey photo' src={Img5} className='md:h-96 h-52 w-full rounded-t-3xl' />
+        <h1 className="text-center font-medium md:text-2xl text-xl md:py-3 py-2">Leather Print</h1>
         </div>
         <div className="border border-gray-400 rounded-3xl">
-        <Image alt='adey photo' src={Img7} className='md:h-96 h-60 w-full rounded-t-3xl' />
-        <h1 className="text-center font-medium text-2xl py-3">Key Chain</h1>
+        <Image alt='adey photo' src={Img7} className='md:h-96 h-52 w-full rounded-t-3xl' />
+        <h1 className="text-center font-medium md:text-2xl text-xl md:py-3 py-2">Key Chain</h1>
         </div>
         {/* </div> */}
       {/* ))} */}

@@ -4,7 +4,7 @@ function Sec3() {
   return (
     <div>
         <div className="mx-6 bg-black rounded-lg px-16 py-8"> 
-        <div className="grid grid-cols-2 gap-">
+        <div className="grid grid-cols-2 ">
           <div className=" text-yellow-300">
             <h1 className="text-5xl font-bold">Unusual Gifts</h1>
             <h3 className="text-xl py-5">Our unique gifts collection</h3>

@@ -1,8 +1,13 @@
 import React from 'react'
 import Image from 'next/image'
-import Img1 from "@/public/images/notebook.png"
-import Img2 from "@/public/images/glass.png"
-import Img3 from "@/public/images/wedding.png"
+import Img1 from "@/public/images/5book.jpg"
+import Img2 from "@/public/images/glass.jpg"
+import Img3 from "@/public/images/wed.jpg"
+import Img4 from "@/public/images/6glass.jpg"
+import Img5 from "@/public/images/2leth.jpg"
+import Img6 from "@/public/images/fam.jpg"
+import Img7 from "@/public/images/key2.jpg"
+import Img8 from "@/public/images/family.jpg"
 
 const OurProduct = [
   {
@@ -40,36 +45,57 @@ const OurProduct = [
 function Sec2() {
   return (
     <div>
-        <div className="mx-20 mt-12 mb-14">
-    <h1 className="text-center font-bold text-3xl">Our Products</h1>
+    <div className="md:mt-16 mt-9 md:mb-14 mb-7">
+    <h1 className="text-center md:font-bold font-medium md:text-5xl text-2xl">Our Products</h1>
     <h1 className='h-1 md:w-14 w-10 bg-yellow-300 md:mt-4 mt-2 mx-auto my-auto'></h1>
     </div>
 
 
-    <div className="mx-20 mt-5 mb-10">
-      <div className="grid grid-cols-3 gap-5 ">
-      {OurProduct.map((items) => (
+    <div className="md:mx-20 mx-2 md:mt-5 mt-3 md:mb-10 mb-5">
+      <div className="grid md:grid-cols-3 grid-cols-2 md:gap-4 gap-3">
+      {/* {OurProduct.map((items) => (
         <div 
         key={items.id}
         >
         <div className="rounded">
         <Image alt='adey photo ' src={items.imageSrc} className='h-full w-fit' />
         <h1 className="text-center">{items.Title}</h1>
-        </div>
-        {/* <div className="border border-gray-900 rounded-3xl">
-        <Image alt='adey photo' src={Img2} className='h-80 w-60' />
-        <h1 className="text-center">NoteBook</h1>
-        </div>
-        <div className="border border-gray-900 rounded-3xl">
-        <Image alt='adey photo' src={Img1} className='h-80 w-60' />
-        <h1 className="text-center">NoteBook</h1>
         </div> */}
+
+        <div className="border border-gray-400 rounded-3xl">
+        <Image alt='adey photo' src={Img1} className='md:h-96 h-60 w-full rounded-t-3xl' />
+        <h1 className="text-center font-medium text-2xl py-3">Note Book</h1>
         </div>
-      ))}
+        <div className="border border-gray-400 rounded-3xl">
+        <Image alt='adey photo' src={Img3} className='md:h-96 h-60 w-full rounded-t-3xl' />
+        <h1 className="text-center font-medium text-2xl py-3">Leather Print</h1>
+        </div>
+        <div className="border border-gray-400 rounded-3xl">
+        <Image alt='adey photo' src={Img2} className='md:h-96 h-60 w-full rounded-t-3xl' />
+        <h1 className="text-center font-medium text-2xl py-3">Glass Print</h1>
+        </div> 
+        <div className="border border-gray-400 rounded-3xl">
+        <Image alt='adey photo' src={Img6} className='md:h-96 h-60 w-full rounded-t-3xl' />
+        <h1 className="text-center font-medium text-2xl py-3">Couch Pillow</h1>
+        </div>
+        <div className="border border-gray-400 rounded-3xl">
+        <Image alt='adey photo' src={Img4} className='md:h-96 h-60 w-full rounded-t-3xl' />
+        <h1 className="text-center font-medium text-2xl py-3">Glass Print</h1>
+        </div>
+        <div className="border border-gray-400 rounded-3xl">
+        <Image alt='adey photo' src={Img5} className='md:h-96 h-60 w-full rounded-t-3xl' />
+        <h1 className="text-center font-medium text-2xl py-3">Leather Print</h1>
+        </div>
+        <div className="border border-gray-400 rounded-3xl">
+        <Image alt='adey photo' src={Img7} className='md:h-96 h-60 w-full rounded-t-3xl' />
+        <h1 className="text-center font-medium text-2xl py-3">Key Chain</h1>
+        </div>
+        {/* </div> */}
+      {/* ))} */}
       </div>
 
-      <div className="mt-10 mb-16 mx-auto">
-        <button className='px-8 py-2 text-xl font-semibold border-yellow-300 border text-center text-black '>
+      <div className="mt-10 mb-16 flex justify-center">
+        <button className='md:px-8 px-6 md:py-3 py-2 md:text-2xl text-xl font-semibold border-yellow-300 border text-center text-black rounded-xl'>
               See More
         </button>
       </div>

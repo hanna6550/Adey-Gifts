@@ -21,7 +21,7 @@ function Navbar() {
         <hr className="text-white h-4 w-full" />
         <div className="flex flex-row justify-center gap-x-16 pb-1">
           {links.map((link) => (
-            <Link key={link.id} href={link.link} className="hover:text-white active:text-white">
+            <Link key={link.id} href={link.link} className="hover:text-white active:bg-white">
               {link.name}
             </Link>
           ))}

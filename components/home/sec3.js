@@ -23,7 +23,7 @@ function Sec3() {
           <div className="grid md:grid-cols-3 grid-cols-1 md:gap-0 gap-4 md:pl-0 pl-8">
            <div><Image alt='adey photo ' src={Img4} className='md:h-40 h-36 md:w-60 w-52 rounded-2xl' /></div>
            <div><Image alt='adey photo ' src={Img2} className='md:h-40 h-36 md:w-60 w-52 rounded-2xl' /></div>
-           <div><Image alt='adey photo ' src={Img3} className='md:h-40 h-36 md:w-60 w-52gi rounded-2xl' /></div>
+           <div><Image alt='adey photo ' src={Img3} className='md:h-40 h-36 md:w-60 w-52 rounded-2xl' /></div>
           </div>
           </div>
         </div>

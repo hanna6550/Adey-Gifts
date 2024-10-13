@@ -10,7 +10,7 @@ import Img7 from "@/public/images/key2.jpg"
 import Img8 from "@/public/images/family.jpg"
 import Img9 from "@/public/images/bracelat.jpg"
 import Img10 from "@/public/images/canndle.jpg"
-import Img11 from "@/public/images/puzzles.jpg"
+import Img11 from "@/public/images/puzz.jpg"
 import Img12 from "@/public/images/wallet.jpg"
 
 const OurProduct = [

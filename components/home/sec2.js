@@ -8,6 +8,10 @@ import Img5 from "@/public/images/2leth.jpg"
 import Img6 from "@/public/images/fam.jpg"
 import Img7 from "@/public/images/key2.jpg"
 import Img8 from "@/public/images/family.jpg"
+import Img9 from "@/public/images/bracelat.jpg"
+import Img10 from "@/public/images/canndle.jpg"
+import Img11 from "@/public/images/puzzles.jpg"
+import Img12 from "@/public/images/wallet.jpg"
 
 const OurProduct = [
   {
@@ -68,11 +72,11 @@ function Sec2() {
         </div>
         <div className="border border-gray-400 rounded-3xl">
         <Image alt='adey photo' src={Img3} className='md:h-96 h-52 w-full rounded-t-3xl' />
-        <h1 className="text-center font-medium md:text-2xl text-xl md:py-3 py-2">Leather Print</h1>
+        <h1 className="text-center font-medium md:text-2xl text-xl md:py-3 py-2">Leather Frame</h1>
         </div>
         <div className="border border-gray-400 rounded-3xl">
         <Image alt='adey photo' src={Img2} className='md:h-96 h-52 w-full rounded-t-3xl' />
-        <h1 className="text-center font-medium md:text-2xl text-xl md:py-3 py-2">Glass Print</h1>
+        <h1 className="text-center font-medium md:text-2xl text-xl md:py-3 py-2">Glass Frame</h1>
         </div> 
         <div className="border border-gray-400 rounded-3xl">
         <Image alt='adey photo' src={Img6} className='md:h-96 h-52 w-full rounded-t-3xl' />
@@ -84,11 +88,27 @@ function Sec2() {
         </div>
         <div className="border border-gray-400 rounded-3xl">
         <Image alt='adey photo' src={Img5} className='md:h-96 h-52 w-full rounded-t-3xl' />
-        <h1 className="text-center font-medium md:text-2xl text-xl md:py-3 py-2">Leather Print</h1>
+        <h1 className="text-center font-medium md:text-2xl text-xl md:py-3 py-2">Leather Frame</h1>
         </div>
         <div className="border border-gray-400 rounded-3xl">
         <Image alt='adey photo' src={Img7} className='md:h-96 h-52 w-full rounded-t-3xl' />
         <h1 className="text-center font-medium md:text-2xl text-xl md:py-3 py-2">Key Chain</h1>
+        </div>
+        <div className="border border-gray-400 rounded-3xl">
+        <Image alt='adey photo' src={Img9} className='md:h-96 h-52 w-full rounded-t-3xl' />
+        <h1 className="text-center font-medium md:text-2xl text-xl md:py-3 py-2">Bracelate</h1>
+        </div>
+        <div className="border border-gray-400 rounded-3xl">
+        <Image alt='adey photo' src={Img10} className='md:h-96 h-52 w-full rounded-t-3xl' />
+        <h1 className="text-center font-medium md:text-2xl text-xl md:py-3 py-2">Photo Printed Candles</h1>
+        </div>
+        <div className="border border-gray-400 rounded-3xl">
+        <Image alt='adey photo' src={Img11} className='md:h-96 h-52 w-full rounded-t-3xl' />
+        <h1 className="text-center font-medium md:text-2xl text-xl md:py-3 py-2">Photo Printed Puzzles</h1>
+        </div>
+        <div className="border border-gray-400 rounded-3xl">
+        <Image alt='adey photo' src={Img12} className='md:h-96 h-52 w-full rounded-t-3xl' />
+        <h1 className="text-center font-medium md:text-2xl text-xl md:py-3 py-2">Wallets Men/Women</h1>
         </div>
         {/* </div> */}
       {/* ))} */}

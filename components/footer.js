@@ -5,6 +5,7 @@ import { FaFacebookF } from "react-icons/fa6";
 import { FaTelegram } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { LuPhoneCall } from "react-icons/lu";
+import { FaTiktok } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -16,9 +17,10 @@ function Footer() {
       <FaFacebookF size={20} />
       <FaTelegram size={20} />
       <FaInstagram size={20}/>
+      <FaTiktok size={20} />
      </div>
      <div className="flex justify-center space-x-3 text-white pt-4">
-     <LuPhoneCall size={30} className="pt-1"/> <h1 className="text-xl"> 0912345678 </h1>
+     <LuPhoneCall size={30} className="pt-1"/> <h1 className="text-xl"> 0919208746 </h1>
      </div>
     </div>
   </div>

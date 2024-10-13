@@ -96,7 +96,7 @@ function Sec2() {
         </div>
         <div className="border border-gray-400 rounded-3xl">
         <Image alt='adey photo' src={Img9} className='md:h-96 h-52 w-full rounded-t-3xl' />
-        <h1 className="text-center font-medium md:text-2xl text-xl md:py-3 py-2">Bracelate</h1>
+        <h1 className="text-center font-medium md:text-2xl text-xl md:py-3 py-2">Bracelet</h1>
         </div>
         <div className="border border-gray-400 rounded-3xl">
         <Image alt='adey photo' src={Img10} className='md:h-96 h-52 w-full rounded-t-3xl' />

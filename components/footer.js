@@ -14,7 +14,7 @@ function Footer() {
      <Image alt='adey logo ' src={Logo2} className='md:w-32 w-28 md:h-40 h-32 mx-auto'/>
      <h1 className="text-xl font-thin text-yellow-400 text-center py-5"> Explore a diverse collection of <br/> handpicked gifts that inspire joy and <br/> celebration.</h1>
      <div className="flex justify-center gap-5 text-white">
-     <a href="https://www.tiktok.com"> <FaFacebookF size={20} /> </a>
+     <a href="https://www.facebook.com"> <FaFacebookF size={20} /> </a>
      <a href="https://t.me/adeygifts"> <FaTelegram size={20} /> </a>
      <a href="https://www.instagram.com/adey.gifts/"> <FaInstagram size={20}/> </a>
      <a href="https://www.tiktok.com/@amanuelz7"> <FaTiktok size={20} /> </a>

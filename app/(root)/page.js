@@ -1,5 +1,3 @@
-import Image from "next/image";
-import HomePage from "@/components/home"
 import Hero from '@/components/home/hero'
 import Section2 from "@/components/home/sec2";
 import Section3 from "@/components/home/sec3"

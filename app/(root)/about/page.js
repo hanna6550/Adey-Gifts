@@ -1,9 +1,11 @@
 import React from 'react'
-import About from "@/components/about"
+import About from '@/components/about'
 
 function page() {
   return (
-    <About />
+    <div>
+      <About />
+    </div>
   )
 }
 

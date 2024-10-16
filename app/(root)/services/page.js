@@ -1,10 +1,10 @@
 import React from 'react'
-import Services from "@/components/services"
+import Services from "@/components/services/"
 
-function page() {
+export default function Page() {
   return (
-    <Services />
-  )
+    <div>  
+      < Services />
+    </div>
+  );
 }
-
-export default page

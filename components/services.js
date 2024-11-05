@@ -1,9 +1,82 @@
 import React from 'react'
+import Image from 'next/image'
+import Image1 from '@/public/images/circleImg.png'
+import SectionTitle from './sectionTitle';
 
 function Services() {
+
+  const ServicesData = [
+    {
+      id: 1,
+      imageSrc: Image1,
+      heading: 'LeatherGifts',
+      description:
+        'Lorem ipsum dolor sit amet, connsectetor odipiscinng elit. Accumsoan at fringiling imperdiet vehicular tincidut mauris malesuada.',
+    },
+    {
+      id: 2,
+      imageSrc: Image1,
+      heading: 'GlassPrint',
+      description:
+        'Lorem ipsum dolor sit amet, connsectetor odipiscinng elit. Accumsoan at fringiling imperdiet vehicular tincidut mauris malesuada.',
+    },
+    {
+      id: 3,
+      imageSrc: Image1,
+      heading: 'KeyChain',
+      description:
+        'Lorem ipsum dolor sit amet, connsectetor odipiscinng elit. Accumsoan at fringiling imperdiet vehicular tincidut mauris malesuada.',
+    },
+    {
+      id: 4,
+      imageSrc: Image1,
+      heading: 'Puzzles',
+      description:
+        'Lorem ipsum dolor sit amet, connsectetor odipiscinng elit. Accumsoan at fringiling imperdiet vehicular tincidut mauris malesuada.',
+    },
+    {
+      id: 5,
+      imageSrc: Image1,
+      heading: 'Pillow',
+      description:
+        'Lorem ipsum dolor sit amet, connsectetor odipiscinng elit. Accumsoan at fringiling imperdiet vehicular tincidut mauris malesuada.',
+    },
+    {
+      id: 6,
+      imageSrc: Image1,
+      heading: 'NoteBook',
+      description:
+        'Lorem ipsum dolor sit amet, connsectetor odipiscinng elit. Accumsoan at fringiling imperdiet vehicular tincidut mauris malesuada.',
+    },
+  ];
+
+  const testimonials = [
+    {
+      id: 1,
+      heading: 'Efficient Collaborating',
+      content: 'Lorem ipsum dolor sit amet, connsectetor odipiscinng elit. Accumsoan at fringiling.',
+      name: 'W/Amanuel',
+      role: 'CEO $ Manager at Adey-GiftCompany'
+    },
+    {
+      id: 2,
+      heading: 'Intutive Design',
+      content: 'Lorem ipsum dolor sit amet, connsectetor odipiscinng elit.',
+      name: 'W/Amanuel',
+      role: 'CEO $ Manager at Adey-GiftCompany'
+    },
+    {
+      id: 1,
+      heading: 'Mindblowing Services',
+      content: 'Lorem ipsum dolor sit amet, connsectetor odipiscinng elit.',
+      name: 'Hanna ',
+      role: 'Customer of Adey-Gift'
+    },
+  ]
+
   return (
     <div>
-      <div className='md:mx-20 mx-5 bg-cover bg-center md:w-auto w-80 h-auto md:rounded-2xl rounded-sm'
+      <div className='md:mx-10 mx-5 bg-cover bg-center md:w-auto w-80 h-auto md:rounded-2xl rounded-sm'
       style={{
         backgroundImage: `url("/images/bg_service.png")`, 
       }}>
@@ -14,9 +87,41 @@ function Services() {
        </div>
     </div>
 
-    <div></div>
-
-    <div></div>
+    <div className='mx-20 my-10'>
+      <div className='grid grid-cols-3 gap-5'>
+        {ServicesData.map((services) => (
+          <div key={services.id}>
+          <div className='bg-yellow-200 text-center px-16 pb-8 pt-5 m-5 rounded-2xl'>
+            <div className='w-32 h-32 bg-black mx-auto my-auto rounded-full'>
+              <Image src={services.imageSrc} alt='services' className='mx-auto my-auto pt-7' />
+            </div>
+            <h2 className='text-xl font-semibold py-4'>{services.heading}</h2>
+            <p className='text-gray-600'>{services.description}</p>
+          </div>
+          </div>
+        ))}
+      </div>
+    </div>
+    
+    <div>
+      <SectionTitle  title={'Testimonials'} className="mt-5" />
+        <div className='mx-40 grid grid-cols-3 gap-5'>
+        {testimonials.map((tesitmonial) => (
+          <div key={tesitmonial.id}>
+            <div className='p-5 text-center'>
+              <h1 className='font-bold text-xl'>{tesitmonial.heading}</h1>
+              <h3 className='font-thin'>{tesitmonial.content}</h3>
+              <br/>
+              <div className='pt-8'>
+                <h1 className='font-black'>{tesitmonial.name}</h1>
+                <h2 className=''>{tesitmonial.role}</h2>
+              </div>
+            </div>
+        </div>
+        ))}
+      </div>
+    </div>
+    
     </div>
   )
 }

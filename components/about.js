@@ -17,7 +17,7 @@ function About() {
       </div>
 
       <div className="w-full bg-black bottom-0 md:py-12 py-6 md:mt-12 mt-8">
-      <Image alt='adey logo ' src={logo} className='md:w-32 w-28 md:h-40 h-32 mx-auto'/> 
+        <Image alt='adey logo ' src={logo} className='md:w-32 w-28 md:h-40 h-32 mx-auto'/> 
       </div>
 
     <div className='bg-cover bg-center md:w-auto w-full h-96'
@@ -25,6 +25,11 @@ function About() {
         backgroundImage: `url("/images/about2.png")`, 
       }}>
         <h3 className='flex justify-center items-center md:text-2xl pt-40 px-32 text-base font-extralight text-gray-300'>After witnessing countless businesses struggle with licensing, payments, website content, and keeping up with changing laws, we knew there had to be a better way. We envisioned a company dedicated to guiding gaming operators towards seamless success, no matter how confusing the system might be.</h3>
+    </div>
+
+    <div className="w-full bg-yellow-400 bottom-0 md:py-12 py-6">
+      <Image alt='adey logo ' src={logo} className='md:w-32 w-28 md:h-40 h-32 mx-auto'/> 
+      <h1></h1>
     </div>
 
     </div>

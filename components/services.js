@@ -9,7 +9,7 @@ function Services() {
     {
       id: 1,
       imageSrc: Image1,
-      heading: 'LeatherGifts',
+      heading: 'Leather Frames',
       description:
         'Lorem ipsum dolor sit amet, connsectetor odipiscinng elit. Accumsoan at fringiling imperdiet vehicular tincidut mauris malesuada.',
     },
@@ -66,7 +66,7 @@ function Services() {
       role: 'CEO $ Manager at Adey-GiftCompany'
     },
     {
-      id: 1,
+      id: 3,
       heading: 'Mindblowing Services',
       content: 'Lorem ipsum dolor sit amet, connsectetor odipiscinng elit.',
       name: 'Hanna ',
@@ -87,15 +87,15 @@ function Services() {
        </div>
     </div>
 
-    <div className='mx-20 my-10'>
-      <div className='grid grid-cols-3 gap-5'>
+    <div className='md:mx-20 mx-8 md:my-10 my-8'>
+      <div className='grid md:grid-cols-3 grid-cols-1 md:gap-5 gap-5'>
         {ServicesData.map((services) => (
           <div key={services.id}>
-          <div className='bg-yellow-200 text-center px-16 pb-8 pt-5 m-5 rounded-2xl'>
+          <div className='bg-yellow-200 text-center md:px-14 px-6 md:pb-8 pb-4 md:pt-5 pt-2 rounded-2xl'>
             <div className='w-32 h-32 bg-black mx-auto my-auto rounded-full'>
               <Image src={services.imageSrc} alt='services' className='mx-auto my-auto pt-7' />
             </div>
-            <h2 className='text-xl font-semibold py-4'>{services.heading}</h2>
+            <h2 className='md:text-2xl text-xl font-semibold md:py-3 py-2'>{services.heading}</h2>
             <p className='text-gray-600'>{services.description}</p>
           </div>
           </div>
@@ -105,14 +105,15 @@ function Services() {
     
     <div>
       <SectionTitle  title={'Testimonials'} className="mt-5" />
-        <div className='mx-40 grid grid-cols-3 gap-5'>
+       
+        <div className='md:mx-40 mx-5 grid md:grid-cols-3 md:gap-8 gap-2'>
         {testimonials.map((tesitmonial) => (
           <div key={tesitmonial.id}>
-            <div className='p-5 text-center'>
+            <div className='md:p-5 text-center'>
               <h1 className='font-bold text-xl'>{tesitmonial.heading}</h1>
               <h3 className='font-thin'>{tesitmonial.content}</h3>
-              <br/>
-              <div className='pt-8'>
+              {/* <br/> */}
+              <div className='md:pt-6 pt-3'>
                 <h1 className='font-black'>{tesitmonial.name}</h1>
                 <h2 className=''>{tesitmonial.role}</h2>
               </div>

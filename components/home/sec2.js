@@ -1,5 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
+import SectionTitle from '../sectionTitle';
+
 import Img1 from "@/public/images/5book.jpg"
 import Img2 from "@/public/images/glass.jpg"
 import Img3 from "@/public/images/wed.jpg"
@@ -49,13 +51,9 @@ const OurProduct = [
 function Sec2() {
   return (
     <div>
-    <div className="md:mt-16 mt-9 md:mb-14 mb-7">
-    <h1 className="text-center md:font-bold font-medium md:text-5xl text-2xl">Our Products</h1>
-    <h1 className='h-1 md:w-14 w-10 bg-yellow-300 md:mt-4 mt-2 mx-auto my-auto'></h1>
-    </div>
+      <SectionTitle  title={'Our Products'} className="mt-5" />
 
-
-    <div className="md:mx-20 mx-2 md:mt-5 mt-3 md:mb-10 mb-5">
+    <div className="md:mx-20 mx-1 md:mt-5 mt-3 md:mb-10 mb-5">
       <div className="grid md:grid-cols-3 grid-cols-2 md:gap-4 gap-3">
       {/* {OurProduct.map((items) => (
         <div 

@@ -10,7 +10,7 @@ import { FaTiktok } from "react-icons/fa";
 function Footer() {
   const currentYear = new Date().getFullYear();
   return (
-  <div className="mt-52  bg-black">
+  <div className="md:mt-52 mt-28  bg-black">
     <div className="w-full bottom-0 md:pt-10 md:pb-8 py-6">
      <Image alt='adey logo ' src={Logo2} className='md:w-32 w-28 md:h-40 h-32 mx-auto'/>
      <h1 className="text-xl font-thin text-yellow-400 text-center py-5"> Explore a diverse collection of <br/> handpicked gifts that inspire joy and <br/> celebration.</h1>

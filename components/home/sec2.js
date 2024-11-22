@@ -4,9 +4,9 @@ import SectionTitle from '../sectionTitle';
 
 import Img1 from "@/public/images/5book.jpg"
 import Img2 from "@/public/images/glass.jpg"
-import Img3 from "@/public/images/wed.jpg"
+import Img5 from "@/public/images/wed.jpg"
 import Img4 from "@/public/images/6glass.jpg"
-import Img5 from "@/public/images/2leth.jpg"
+import Img3 from "@/public/images/2leth.jpg"
 import Img6 from "@/public/images/fam.jpg"
 import Img7 from "@/public/images/key2.jpg"
 import Img8 from "@/public/images/family.jpg"
@@ -19,32 +19,62 @@ const OurProduct = [
   {
     id: 1,
     imageSrc: Img1,
-    Title:'NoteBook',
+    title:'NoteBook',
   },
   {
     id: 2,
     imageSrc: Img2,
-    Title:'Photo Phrames',
+    title:'Glass Frames',
   },
   {
     id: 3,
     imageSrc: Img3,
-    Title:'Lether...',
+    title:'Leather Frames',
   },
+  // {
+  //   id: 4,
+  //   imageSrc: Img4,
+  //   title:'Glass Frames',
+  // },
+  // {
+  //   id: 5,
+  //   imageSrc: Img5,
+  //   title:'Leather Frames',
+  // },
   {
     id: 6,
-    imageSrc: Img3,
-    Title:'NoteBook',
+    imageSrc: Img6,
+    title:'Couch Pillows ',
   },
   {
-    id: 4,
-    imageSrc: Img1,
-    Title:'Photo Phrames',
+    id: 7,
+    imageSrc: Img7,
+    title:'Custom Key Chain',
   },
   {
-    id: 5,
-    imageSrc: Img3,
-    Title:'Lether...',
+    id: 8,
+    imageSrc: Img8,
+    title:'Glass Photo Frames',
+  },
+  {
+    id: 9,
+    imageSrc: Img9,
+    title:'Bracelet',
+  },
+  {
+    id: 10,
+    imageSrc: Img10,
+    title:'Photo Printed Candles',
+  },
+  {
+    id: 11,
+    imageSrc: Img11,
+    title:'Photo Printed Puzzles',
+  },
+  {
+    id: 12,
+    imageSrc: Img12,
+    title:'Men/Women Wallets',
   },
 ];
 
@@ -54,62 +84,17 @@ function Sec2() {
       <SectionTitle  title={'Our Products'} className="mt-5" />
 
     <div className="md:mx-20 mx-1 md:mt-5 mt-3 md:mb-10 mb-5">
-      <div className="grid md:grid-cols-3 grid-cols-2 md:gap-4 gap-3">
-      {/* {OurProduct.map((items) => (
-        <div 
-        key={items.id}
-        >
-        <div className="rounded">
-        <Image alt='adey photo ' src={items.imageSrc} className='h-full w-fit' />
-        <h1 className="text-center">{items.Title}</h1>
-        </div> */}
+      <div className="grid md:grid-cols-3 grid-cols-2 md:gap-10 gap-3">
 
+      {OurProduct.map((products) => (
+          <div key={products.id}>
         <div className="border border-gray-400 rounded-3xl">
-        <Image alt='adey photo' src={Img1} className='md:h-96 h-52 w-full rounded-t-3xl' />
-        <h1 className="text-center font-medium md:text-2xl text-xl md:py-3 py-2">Note Book</h1>
+        <Image alt='adey photo' src={products.imageSrc} className='md:h-96 h-52 w-full rounded-t-3xl' />
+        <h1 className="text-center font-medium md:text-2xl text-xl md:py-3 py-2">{products.title}</h1>
         </div>
-        <div className="border border-gray-400 rounded-3xl">
-        <Image alt='adey photo' src={Img3} className='md:h-96 h-52 w-full rounded-t-3xl' />
-        <h1 className="text-center font-medium md:text-2xl text-xl md:py-3 py-2">Leather Frame</h1>
         </div>
-        <div className="border border-gray-400 rounded-3xl">
-        <Image alt='adey photo' src={Img2} className='md:h-96 h-52 w-full rounded-t-3xl' />
-        <h1 className="text-center font-medium md:text-2xl text-xl md:py-3 py-2">Glass Frame</h1>
-        </div> 
-        <div className="border border-gray-400 rounded-3xl">
-        <Image alt='adey photo' src={Img6} className='md:h-96 h-52 w-full rounded-t-3xl' />
-        <h1 className="text-center font-medium md:text-2xl text-xl md:py-3 py-2">Couch Pillow</h1>
-        </div>
-        <div className="border border-gray-400 rounded-3xl">
-        <Image alt='adey photo' src={Img4} className='md:h-96 h-52 w-full rounded-t-3xl' />
-        <h1 className="text-center font-medium md:text-2xl text-xl md:py-3 py-2">Glass Print</h1>
-        </div>
-        <div className="border border-gray-400 rounded-3xl">
-        <Image alt='adey photo' src={Img5} className='md:h-96 h-52 w-full rounded-t-3xl' />
-        <h1 className="text-center font-medium md:text-2xl text-xl md:py-3 py-2">Leather Frame</h1>
-        </div>
-        <div className="border border-gray-400 rounded-3xl">
-        <Image alt='adey photo' src={Img7} className='md:h-96 h-52 w-full rounded-t-3xl' />
-        <h1 className="text-center font-medium md:text-2xl text-xl md:py-3 py-2">Key Chain</h1>
-        </div>
-        <div className="border border-gray-400 rounded-3xl">
-        <Image alt='adey photo' src={Img9} className='md:h-96 h-52 w-full rounded-t-3xl' />
-        <h1 className="text-center font-medium md:text-2xl text-xl md:py-3 py-2">Bracelet</h1>
-        </div>
-        <div className="border border-gray-400 rounded-3xl">
-        <Image alt='adey photo' src={Img10} className='md:h-96 h-52 w-full rounded-t-3xl' />
-        <h1 className="text-center font-medium md:text-2xl text-xl md:py-3 py-2">Photo Printed Candles</h1>
-        </div>
-        <div className="border border-gray-400 rounded-3xl">
-        <Image alt='adey photo' src={Img11} className='md:h-96 h-52 w-full rounded-t-3xl' />
-        <h1 className="text-center font-medium md:text-2xl text-xl md:py-3 py-2">Photo Printed Puzzles</h1>
-        </div>
-        <div className="border border-gray-400 rounded-3xl">
-        <Image alt='adey photo' src={Img12} className='md:h-96 h-52 w-full rounded-t-3xl' />
-        <h1 className="text-center font-medium md:text-2xl text-xl md:py-3 py-2">Wallets Men/Women</h1>
-        </div>
-        {/* </div> */}
-      {/* ))} */}
+      ))}
+
       </div>
 
       <div className="md:mt-10 mt-6 md:mb-16 mb-10 flex justify-center">

@@ -53,13 +53,13 @@ const OurProduct = [
   },
   {
     id: 8,
-    imageSrc: Img8,
-    title:'Glass Photo Frames',
+    imageSrc: Img9,
+    title:'Bracelet',
   },
   {
     id: 9,
-    imageSrc: Img9,
-    title:'Bracelet',
+    imageSrc: Img8,
+    title:'Glass Photo Frames',
   },
   {
     id: 10,

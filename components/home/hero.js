@@ -4,7 +4,7 @@ import Image from 'next/image'
 function Section1() {
   return (
   <div
-    className='md:mx-16 mx-5 bg-cover bg-center w-auto md:h-fit h-72 md:rounded-2xl rounded-sm'
+    className='md:mx-16 mx-5 md:mt-8 bg-cover bg-center w-auto md:h-fit h-72 md:rounded-2xl rounded-sm'
       style={{
         backgroundImage: `url("/images/bg.png")`, 
       }}>

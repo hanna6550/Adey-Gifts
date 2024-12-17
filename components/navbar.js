@@ -17,7 +17,7 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-black text-yellow-200 text-sm mb-8">
+    <nav className="bg-black text-yellow-200 text-sm md:mb- mb-4">
       <div className="flex justify-between items-center md:pt-3 pt-3 md:pb-3 pb-2 md:px-0 px-10 md:flex-col md:items-center">
         {/* Logo */}
         <div className="flex items-center">

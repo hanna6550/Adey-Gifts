@@ -84,12 +84,12 @@ function Sec2() {
       <SectionTitle  title={'Our Products'} className="mt-5" />
 
     <div className="md:mx-20 mx-1 md:mt-5 mt-3 md:mb-10 mb-5">
-      <div className="grid md:grid-cols-3 grid-cols-2 md:gap-10 gap-3">
+      <div className="grid md:grid-cols-4 grid-cols-2 md:gap-8 gap-3">
 
       {OurProduct.map((products) => (
           <div key={products.id}>
         <div className="border border-gray-400 rounded-3xl">
-        <Image alt='adey photo' src={products.imageSrc} className='md:h-96 h-52 w-full rounded-t-3xl' />
+        <Image alt='adey photo' src={products.imageSrc} className='md:h-80 h-52 w-full rounded-t-3xl' />
         <h1 className="text-center font-medium md:text-2xl text-xl md:py-3 py-2">{products.title}</h1>
         </div>
         </div>

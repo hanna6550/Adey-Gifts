@@ -8,7 +8,7 @@ import { FaInstagram } from "react-icons/fa";
 
 function Contact() {
   return (
-    <div className='md:mx-10 mx-5'>
+    <div className='md:mx-10 mx-5 md:mt-8'>
       <Image src={img1} className='md:h-96 h-72'/>
 
       <div className='md:mx-20 mx- md:my-12 my-8 '>

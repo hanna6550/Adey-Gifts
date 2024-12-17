@@ -9,7 +9,7 @@ import Img6 from '@/public/images/4glass.jpg'
 function Sec3() {
   return (
     <div>
-        <div className="md:mx-10 mx-5 bg-black rounded-2xl md:py-7 py-4"> 
+        <div className="md:mx-10 mx-5 md:my-24 bg-black rounded- md:py-7 py-4"> 
         <div className="grid md:grid-cols-3 grid-cols-1 md:gap-4 gap-6 md:pl-16 pl-6">
           <div className="md:col-span-1 text-yellow-300">
             <h1 className="md:text-5xl text-3xl md:font-bold font-semibold">Unusual Gifts</h1>

@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Image1 from '@/public/images/circleImg.png'
 import SectionTitle from './sectionTitle';
+import { ImGift } from "react-icons/im";
 
 function Services() {
 
@@ -16,14 +17,14 @@ function Services() {
     {
       id: 2,
       imageSrc: Image1,
-      heading: 'GlassPrint',
+      heading: 'Glass Prints',
       description:
         'Lorem ipsum dolor sit amet, connsectetor odipiscinng elit. Accumsoan at fringiling imperdiet vehicular tincidut mauris malesuada.',
     },
     {
       id: 3,
       imageSrc: Image1,
-      heading: 'KeyChain',
+      heading: 'Key Chains',
       description:
         'Lorem ipsum dolor sit amet, connsectetor odipiscinng elit. Accumsoan at fringiling imperdiet vehicular tincidut mauris malesuada.',
     },
@@ -37,14 +38,21 @@ function Services() {
     {
       id: 5,
       imageSrc: Image1,
-      heading: 'Pillow',
+      heading: 'Pillows',
       description:
         'Lorem ipsum dolor sit amet, connsectetor odipiscinng elit. Accumsoan at fringiling imperdiet vehicular tincidut mauris malesuada.',
     },
     {
       id: 6,
       imageSrc: Image1,
-      heading: 'NoteBook',
+      heading: 'NoteBooks',
+      description:
+        'Lorem ipsum dolor sit amet, connsectetor odipiscinng elit. Accumsoan at fringiling imperdiet vehicular tincidut mauris malesuada.',
+    },
+    {
+      id: 7,
+      imageSrc: Image1,
+      heading: 'Men/Women Wallets',
       description:
         'Lorem ipsum dolor sit amet, connsectetor odipiscinng elit. Accumsoan at fringiling imperdiet vehicular tincidut mauris malesuada.',
     },
@@ -75,8 +83,8 @@ function Services() {
   ]
 
   return (
-    <div>
-      <div className='md:mx-10 mx-5 bg-cover bg-center w-auto md:h-96 h-72 md:rounded-2xl rounded-sm'
+    <div >
+      <div className='md:mx-10 mx-5 md:mt-8 bg-cover bg-center w-auto md:h-96 h-72 md:rounded-2xl rounded-sm'
       style={{
         backgroundImage: `url("/images/bg_service.png")`, 
       }}>
@@ -92,8 +100,9 @@ function Services() {
         {ServicesData.map((services) => (
           <div key={services.id}>
           <div className='bg-yellow-200 text-center md:px-14 px-6 md:pb-8 pb-4 md:pt-5 pt-2 rounded-2xl'>
-            <div className='w-32 h-32 bg-black mx-auto my-auto rounded-full'>
-              <Image src={services.imageSrc} alt='services' className='mx-auto my-auto pt-7' />
+            <div className='w-32 h-32 bg-white mx-auto my-auto rounded-full'>
+              <ImGift className='text-red-500 mx-auto pt-8 text-8xl' />
+              {/* <Image src={services.imageSrc} alt='services' className='mx-auto my-auto pt-7' /> */}
             </div>
             <h2 className='md:text-2xl text-xl font-semibold md:py-3 py-2'>{services.heading}</h2>
             <p className='text-gray-600'>{services.description}</p>

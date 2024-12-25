@@ -56,7 +56,7 @@ function Contact() {
 
         <div className='grid grid-cols-2 md:gap gap-6 md:mt-10 mt-6 md:mx-20 mx-1'>
           <div className=''>
-            <h1 className='md:ml-10 md:text-xl text-base font-semibold md:pb-6 pb-4'>COME VISIT US </h1>
+            <h1 className='md:ml-10 md:text-2xl text-base font-semibold md:pb-6 pb-4'>COME VISIT US </h1>
             <div className=''>
               <h1 className=''>ADDIS ABABA, ETHIOPIA</h1>
               <div className='flex justify-center h-1 md:w-14 w-8 bg-gray-400 md:my-5 my-3'></div>
@@ -65,12 +65,12 @@ function Contact() {
             </div>
           </div>
           <div className='md:ml-20'> 
-           <h1 className='md:ml-10  md:text-xl text-base font-semibold md:pb-6 pb-4'>FOLLOW OUR SOCIALS </h1>
+           <h1 className='md:ml-10  md:text-2xl text-lg font-semibold md:pb-6 pb-4'>FOLLOW OUR SOCIALS </h1>
            <div className="flex md:gap-5 gap-3 md:pl-16">
-            <a href="https://www.facebook.com"> <FaFacebookF size={20} /> </a>
-            <a href="https://t.me/adeygifts"> <FaTelegram size={20} /> </a>
-            <a href="https://www.instagram.com/adey.gifts/"> <FaInstagram size={20}/> </a>
-            <a href="https://www.tiktok.com/@amanuelz7"> <FaTiktok size={20} /> </a>
+            <a href="https://www.facebook.com"> <FaFacebookF size={25} /> </a>
+            <a href="https://t.me/adeygifts"> <FaTelegram size={25} /> </a>
+            <a href="https://www.instagram.com/adey.gifts/"> <FaInstagram size={25}/> </a>
+            <a href="https://www.tiktok.com/@amanuelz7"> <FaTiktok size={25} /> </a>
           </div>
           </div>
         </div>

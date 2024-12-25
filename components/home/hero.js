@@ -12,7 +12,8 @@ function Section1() {
        <h1 className="md:text-7xl text-5xl text-white font-extralight md:pt-0 pt-7">Welcome to </h1>
        <h1 className="md:text-7xl text-5xl text-yellow-400 font-semibold mb-2">Adey Gifts</h1>
        <h1 className='h-1 md:w-14 w-8 bg-white  md:mt-6 mt-2 md:mb-10 mb-4'></h1>
-       <h3 className="text-gray-300 font-light md:text-2xl text-base md:mt-10 mt-4 md:pr-96 pr-6">Discover a delightful array of unique and handcrafted gifts perfect for any occasions. A boutique collection of <br/> quirky and charming gifts that add a touch of magic to every celebration.</h3>
+       <h3 className="text-gray-200 font-medium md:text-2xl text-base md:mt-10 mt-4 md:pr-96 pr-6 md:pb-8 pb-5">Discover a delightful array of unique and handcrafted gifts perfect for any occasions. A boutique collection of <br/> quirky and charming gifts that add a touch of magic to every celebration.</h3>
+       <i className="text-gray-200  font-medium md:text-4xl text-base md:mt-10 mt-4 md:pr-96 pr-6 md:pl-8  ">"Celebrate life’s special moments with the gift they’ll always remember."</i>
     </div>
     </div>
   )

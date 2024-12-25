@@ -90,7 +90,7 @@ function Sec2() {
           <div key={products.id}>
         <div className="border border-gray-400 rounded-3xl">
         <Image alt='adey photo' src={products.imageSrc} className='md:h-80 h-52 w-full rounded-t-3xl' />
-        <h1 className="text-center font-medium md:text-2xl text-xl md:py-3 py-2">{products.title}</h1>
+        <h1 className="text-center font-semibold md:text-2xl text-xl md:py-5 py-2">{products.title}</h1>
         </div>
         </div>
       ))}

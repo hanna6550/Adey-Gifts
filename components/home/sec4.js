@@ -37,9 +37,9 @@ function Sec4() {
             <div className="grid grid-cols-2 gap-0 border border-gray-400 rounded-3xl">
             <div className="md:pl-12 pl-5 md:pt-10 pt-8">
                     <h1 className="md:text-4xl text-2xl font-bold md:pb-8 pb-5">Weddings</h1>
-                    <button className='py-2 px-3 md:text-xl text-base border border-yellow-300 text-black rounded-xl'>
+                    <a href='/contact' className='py-2 px-3 md:text-xl text-base border border-yellow-300 text-black rounded-xl'>
                         Shop now
-                    </button>
+                    </a>
                 </div>
                 <div>
                     <Image src={Img3} className="rounded-r-3xl w-full md:h-52 h-40"/>
@@ -104,6 +104,18 @@ function Sec4() {
                 </div>
                 <div>
                     <Image src={Img13} className="rounded-r-3xl w-full md:h-52 h-40"/>
+                </div>
+            </div>
+
+            <div className="grid grid-cols-2 gap-0 border border-gray-400 rounded-3xl">
+            <div className="md:pl-12 pl-5 md:pt-10 pt-8">
+                    <h1 className="md:text-4xl text-2xl font-bold md:pb-8 pb-5">Special Events</h1>
+                    <button className='py-2 px-3 md:text-xl text-base border border-yellow-300 text-black rounded-xl'>
+                        Shop now
+                    </button>
+                </div>
+                <div>
+                    <Image src={Img7} className="rounded-r-3xl w-full md:h-52 h-40"/>
                 </div>
             </div>
         </div>

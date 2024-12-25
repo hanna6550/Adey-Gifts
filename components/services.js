@@ -12,49 +12,56 @@ function Services() {
       imageSrc: Image1,
       heading: 'Leather Frames',
       description:
-        'Lorem ipsum dolor sit amet, connsectetor odipiscinng elit. Accumsoan at fringiling imperdiet vehicular tincidut mauris malesuada.',
+        'Combine style and sentiment with our custom leather prints. Your photo is carefully printed onto high-quality leather, creating a sophisticated and durable keepsake. Ideal for home décor or as a premium gift, this unique item exudes class and personal charm.',
     },
     {
       id: 2,
       imageSrc: Image1,
       heading: 'Glass Prints',
       description:
-        'Lorem ipsum dolor sit amet, connsectetor odipiscinng elit. Accumsoan at fringiling imperdiet vehicular tincidut mauris malesuada.',
+        'Transform your favorite photo into a piece of timeless art with our custom glass prints. Vibrant, high-definition printing on crystal-clear glass brings your memories to life in stunning detail. Sleek and elegant, these glass prints are perfect for decorating any space or gifting on special occasions',
     },
     {
       id: 3,
       imageSrc: Image1,
-      heading: 'Key Chains',
+      heading: 'NoteBooks',
       description:
-        'Lorem ipsum dolor sit amet, connsectetor odipiscinng elit. Accumsoan at fringiling imperdiet vehicular tincidut mauris malesuada.',
-    },
+        'Turn your cherished memories into a daily source of inspiration with our custom photo print notebooks. Perfect for jotting down thoughts, plans, or creative ideas, these notebooks feature a durable cover showcasing your favorite photo in stunning clarity. Ideal as a gift for students, writers, or professionals, it’s a functional yet deeply personal keepsake.',
+      },
     {
       id: 4,
       imageSrc: Image1,
       heading: 'Puzzles',
       description:
-        'Lorem ipsum dolor sit amet, connsectetor odipiscinng elit. Accumsoan at fringiling imperdiet vehicular tincidut mauris malesuada.',
+        'Piece together your memories with our custom photo puzzles. Perfect for family fun or gifting, these puzzles transform your favorite photo into a unique, interactive keepsake. Available in various sizes, it’s a delightful way to relive your special moments',
     },
     {
       id: 5,
       imageSrc: Image1,
       heading: 'Pillows',
       description:
-        'Lorem ipsum dolor sit amet, connsectetor odipiscinng elit. Accumsoan at fringiling imperdiet vehicular tincidut mauris malesuada.',
+        'Add a cozy touch to your memories with our custom photo pillows. Soft, durable, and printed with your favorite image, these personalized pillows make thoughtful gifts and stylish home accents. Perfect for snuggling up with moments that matter.',
     },
     {
       id: 6,
       imageSrc: Image1,
-      heading: 'NoteBooks',
+      heading: 'Key Chains',
       description:
-        'Lorem ipsum dolor sit amet, connsectetor odipiscinng elit. Accumsoan at fringiling imperdiet vehicular tincidut mauris malesuada.',
+        'Carry your favorite memories everywhere with our custom photo keychains. Compact and stylish, these personalized keychains feature your chosen image printed on a durable surface. Perfect for daily use or as a thoughtful gift that keeps loved ones close.',
     },
     {
       id: 7,
       imageSrc: Image1,
       heading: 'Men/Women Wallets',
       description:
-        'Lorem ipsum dolor sit amet, connsectetor odipiscinng elit. Accumsoan at fringiling imperdiet vehicular tincidut mauris malesuada.',
+        'Make every day personal with our custom photo wallets. Crafted from premium materials, these wallets showcase your favorite image, blending functionality with a heartfelt touch. A practical and unique gift for loved ones that’s as stylish as it is meaningful',
+    },
+    {
+      id: 7,
+      imageSrc: Image1,
+      heading: 'Bracelate',
+      description:
+        'Keep your loved ones close with our custom photo bracelets. Featuring a beautifully engraved charm with your favorite image, this personalized accessory is both elegant and meaningful. Perfect as a gift for any occasion or a treasured piece for yourself.',
     },
   ];
 

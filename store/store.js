@@ -1,5 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit';
-// import blogReducer from './blogSlice';
+import productReducer from './productSlice';
 // import testReducer from './testSlice';
 // import partnerReducer from "./partnerSlice";
 // import teamReducer from "./teamSlice";
@@ -7,7 +7,7 @@ import { configureStore } from '@reduxjs/toolkit';
 
 export const store = configureStore({
   reducer: {
-    // blog: blogReducer,
+    product: productReducer,
     // test: testReducer,
     // partner: partnerReducer,
     // team: teamReducer,

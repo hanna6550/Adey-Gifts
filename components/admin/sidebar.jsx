@@ -28,9 +28,9 @@ function Sidebar() {
           Kelal Dashboard
         </span> */}
         <Image
-          src='/images/orangelogo.png'
-          width={160}
-          height={100}
+          src='/images/logo.jpg'
+          width={100}
+          height={10}
           alt='logo'
         />
       </div>

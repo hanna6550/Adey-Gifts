@@ -10,9 +10,9 @@ const Navbar = () => {
         <div className='flex items-center'>
           <a href='#' className=' text-lg font-bold'>
             <Image
-              src='/images/orangelogo.png'
-              width={140}
-              height={10}
+              src='/images/logo_1.png'
+              width={80}
+              height={0}
               alt='logo'
             />
           </a>

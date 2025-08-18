@@ -15,24 +15,24 @@ export const DashboardTop = [
     icon: <HiOutlineHome />,
     sublinks: [],
   },
-  // {
-  //   key: 'Blog',
-  //   label: 'Blog',
-  //   path: '/blog',
-  //   icon: <HiQuestionMarkCircle />,
-  //   sublinks: [
-  //     {
-  //       key: 'BlogSublink1',
-  //       label: 'Add Blog',
-  //       path: '/blog/add',
-  //     },
-  //     {
-  //       key: 'BlogSublink2',
-  //       label: 'View Blogs',
-  //       path: '/blog/view',
-  //     },
-  //   ],
-  // },
+  {
+    key: 'Product',
+    label: 'Product',
+    path: '/product',
+    icon: <HiQuestionMarkCircle />,
+    sublinks: [
+      {
+        key: 'ProductSublink1',
+        label: 'Add Product',
+        path: '/product/add',
+      },
+      {
+        key: 'ProductSublink2',
+        label: 'View Products',
+        path: '/product/view',
+      },
+    ],
+  },
   // {
   //   key: 'Partners',
   //   label: 'Partners',

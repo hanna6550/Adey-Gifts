@@ -12,7 +12,7 @@ function About() {
        <div className='md:pl-12 pl-5 md:pb-20 pb-8 md:pt-12 pt-6'>
        <h1 className="md:text-7xl text-5xl text-yellow-400 md:pt- pt-4">Our Offerings</h1>
        <h1 className='h-1 md:w-14 w-8 bg-white  md:mt-6 mt-2 md:mb-10 mb-4'></h1>
-       <h3 className="md:text-2xl text-base text-gray-200 font-light md:mt-10 mt-6 md:pr-96 pr-6">We believe every gift should tell a story—a story of love, care, and thoughtfulness. That’s why we’re always ready to help you create gifts that are as meaningful as the relationships they celebrate.<br/> <br/> From personalized keepsakes to timeless treasures, our custom photo gifts are designed to make your beloveds feel truly special. Because every moment deserves to be cherished, and every gift should come from the heart.</h3>
+       <h3 className="md:text-2xl text-base text-gray-200 font-light md:mt-10 mt-6 md:pr-96 pr-6">We believe every gift should tell a story—a story of love, care, and thoughtfulness. That’s why we’re always ready to help you create gifts that are as meaningful as the relationships they celebrate.<br/> From personalized keepsakes to timeless treasures, our custom photo gifts are designed to make your beloveds feel truly special. Because every moment deserves to be cherished, and every gift should come from the heart.</h3>
        </div>
       </div>
  

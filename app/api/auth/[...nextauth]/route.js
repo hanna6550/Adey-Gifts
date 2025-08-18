@@ -4,36 +4,41 @@ import NextAuth from 'next-auth/next';
 import CredentialsProvider from 'next-auth/providers/credentials';
 import bcrypt from 'bcryptjs';
 
-async function login(credentials) {
-  try {
-    await connectMongoDB();
-    const user = await User.findOne({ username: credentials.username });
-    // console.log(user)
-    if (!user) throw new Error('Wrong Credentials.');
-    const isCorrect = await bcrypt.compare(credentials.password, user.password);
-    if (!isCorrect) throw new Error('Wrong Credentials.');
-    return user;
-  } catch (error) {
-    console.log('error while log');
-    throw new Error('Something Went Wrong');
+async function login({ username, password }) {
+  await connectMongoDB();
+
+  const user = await User.findOne({ username });
+  if (!user) {
+    throw new Error('Invalid username or password');
   }
+
+  const isValid = await bcrypt.compare(password, user.password);
+  if (!isValid) {
+    throw new Error('Invalid username or password');
+  }
+
+  // Return only safe fields
+  return {
+    id: user._id.toString(),
+    username: user.username,
+  };
 }
+
 export const authOptions = {
   providers: [
     CredentialsProvider({
       name: 'credentials',
-      credentials: {},
+      credentials: {
+        username: { label: "Username", type: "text" },
+        password: { label: "Password", type: "password" }
+      },
       async authorize(credentials) {
-        const { username, password } = credentials;
-
         try {
-          await connectMongoDB();
-          // console.log(credentials);
           const user = await login(credentials);
           return user;
-        } catch (error) {
-          console.log('Error: ', error);
-          throw new Error('Cannot login user');
+        } catch (err) {
+          console.error("Login error:", err.message);
+          return null; // Returning null makes NextAuth send 401
         }
       },
     }),
@@ -41,18 +46,16 @@ export const authOptions = {
   callbacks: {
     async jwt({ token, user }) {
       if (user) {
-        token.username = user.username;
         token.id = user.id;
+        token.username = user.username;
       }
-      // console.log("the token= ", token)
       return token;
     },
     async session({ session, token }) {
       if (token) {
-        session.user.username = token.username;
         session.user.id = token.id;
+        session.user.username = token.username;
       }
-      // console.log("the session= ", session)
       return session;
     },
   },
@@ -60,10 +63,9 @@ export const authOptions = {
     signIn: '/login',
   },
   session: {
-    maxAge: 60 * 60 * 24, // 24 hours in seconds
+    maxAge: 60 * 60 * 24, // 24 hours
   },
 };
 
 const handler = NextAuth(authOptions);
-
 export { handler as GET, handler as POST };

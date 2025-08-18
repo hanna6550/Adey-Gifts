@@ -9,21 +9,21 @@ const ProductSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  image: {
+  // review: {
+  //   type: String,
+  //   require: true,
+  // },
+  // instock: {
+  //   type: String,
+  //   require:true,
+  // },
+   category: {
     type: String,
-    require: true,
-  },
-  review: {
-    type: String,
-    require: true,
-  },
-  instock: {
-    type: String,
-    require:true,
+    required:true,
   },
   price: {
     type: Number,
-    require: true,
+    required: true,
   },
   createdAt: {
     type: Date,

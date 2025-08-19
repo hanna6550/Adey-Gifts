@@ -19,8 +19,6 @@ export async function PUT(request, { params }) {
       image: image,
       name: name,
       category: category,
-      // review: review,
-      // instock: instock,
       price: price,
     },
     { new: true }

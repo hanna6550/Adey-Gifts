@@ -1,8 +1,34 @@
 import React from 'react'
 import Image from 'next/image'
 import logo from '@/public/images/logo2.png'
+import SectionTitle from "@/components/sectionTitle"
 
 function About() {
+
+  const testimonials = [
+      {
+        id: 1,
+        heading: 'Efficient Collaborating',
+        content: 'Lorem ipsum dolor sit amet, connsectetor odipiscinng elit. Accumsoan at fringiling.',
+        name: 'W/Amanuel',
+        role: 'CEO $ Manager at Adey-GiftCompany'
+      },
+      {
+        id: 2,
+        heading: 'Intutive Design',
+        content: 'Lorem ipsum dolor sit amet, connsectetor odipiscinng elit.',
+        name: 'W/Amanuel',
+        role: 'CEO $ Manager at Adey-GiftCompany'
+      },
+      {
+        id: 3,
+        heading: 'Mindblowing Services',
+        content: 'Lorem ipsum dolor sit amet, connsectetor odipiscinng elit.',
+        name: 'Hanna ',
+        role: 'Customer of Adey-Gift'
+      },
+    ]
+
   return (
     <div>
       <div className='md:mx-20 mx-5 md:mt-8 bg-cover bg-center w-auto w- md:h-96 h-72 md:rounded-2xl rounded-sm'
@@ -16,7 +42,7 @@ function About() {
        </div>
       </div>
  
-      <div className='md:mx-6 mx-2'>
+      <div className=''>
 
         <div className="w-full bg-black bottom-0 md:py-16 py-6 md:mt-12 mt-8">
           <Image alt='adey logo ' src={logo} className='md:w-32 w-28 md:h-40 h-32 mx-auto'/> 
@@ -35,6 +61,24 @@ function About() {
         </div>
 
     </div>
+
+    <SectionTitle  title={'Our Teams'} className="mt-5" />
+
+    <div className='md:mx-40 mx-5 grid md:grid-cols-3 md:gap-8 gap-2'>
+        {testimonials.map((tesitmonial) => (
+          <div key={tesitmonial.id}>
+            <div className='md:p-5 text-center'>
+              <h1 className='font-bold text-xl'>{tesitmonial.heading}</h1>
+              <h3 className='font-thin'>{tesitmonial.content}</h3>
+              {/* <br/> */}
+              <div className='md:pt-6 pt-3'>
+                <h1 className='font-black'>{tesitmonial.name}</h1>
+                <h2 className=''>{tesitmonial.role}</h2>
+              </div>
+            </div>
+        </div>
+        ))}
+      </div>
 
     </div>
   )

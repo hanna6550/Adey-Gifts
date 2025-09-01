@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className='bg-white px-4 py-2  border-b'>
       <div className='max-w-7xl mx-auto flex justify-between items-center'>
         <div className='flex items-center'>
-          <a href='#' className=' text-lg font-bold'>
+          <a href='/' >
             <Image
               src='/images/logo_1.png'
               width={80}

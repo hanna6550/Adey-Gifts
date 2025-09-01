@@ -27,12 +27,14 @@ function Sidebar() {
         <span className='text-2xl font-bold hidden md:inline'>
           Kelal Dashboard
         </span> */}
+        <a href='/'>
         <Image
           src='/images/logo.jpg'
           width={100}
           height={10}
           alt='logo'
         />
+        </a>
       </div>
       <div className='flex-1 overflow-y-auto '>
         <div className='grid grid-cols-1 gap-1 '>

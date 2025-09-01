@@ -64,30 +64,7 @@ function Services() {
         'Keep your loved ones close with our custom photo bracelets. Featuring a beautifully engraved charm with your favorite image, this personalized accessory is both elegant and meaningful. Perfect as a gift for any occasion or a treasured piece for yourself.',
     },
   ];
-
-  const testimonials = [
-    {
-      id: 1,
-      heading: 'Efficient Collaborating',
-      content: 'Lorem ipsum dolor sit amet, connsectetor odipiscinng elit. Accumsoan at fringiling.',
-      name: 'W/Amanuel',
-      role: 'CEO $ Manager at Adey-GiftCompany'
-    },
-    {
-      id: 2,
-      heading: 'Intutive Design',
-      content: 'Lorem ipsum dolor sit amet, connsectetor odipiscinng elit.',
-      name: 'W/Amanuel',
-      role: 'CEO $ Manager at Adey-GiftCompany'
-    },
-    {
-      id: 3,
-      heading: 'Mindblowing Services',
-      content: 'Lorem ipsum dolor sit amet, connsectetor odipiscinng elit.',
-      name: 'Hanna ',
-      role: 'Customer of Adey-Gift'
-    },
-  ]
+  
 
   return (
     <div >
@@ -121,22 +98,24 @@ function Services() {
     
     <div>
       <SectionTitle  title={'Testimonials'} className="mt-5" />
+        <div className='flex justify-center md:gap-8 md:mx-20 ' >
+          <div>
+            <video height={500} width={400} controls   poster="/video/video_thumbnail.jpg" className=" rounded-lg shadow-md">
+                <source src="/video/video_testimonial1.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div>
+            <video height={500} width={400} controls preload="none" className="rounded-lg shadow-md">
+                <source src="/video/video_testimonial2.mp4" type="video/mp4" />
+            </video>
+          </div>
+  
+</div>
+
+
+
        
-        <div className='md:mx-40 mx-5 grid md:grid-cols-3 md:gap-8 gap-2'>
-        {testimonials.map((tesitmonial) => (
-          <div key={tesitmonial.id}>
-            <div className='md:p-5 text-center'>
-              <h1 className='font-bold text-xl'>{tesitmonial.heading}</h1>
-              <h3 className='font-thin'>{tesitmonial.content}</h3>
-              {/* <br/> */}
-              <div className='md:pt-6 pt-3'>
-                <h1 className='font-black'>{tesitmonial.name}</h1>
-                <h2 className=''>{tesitmonial.role}</h2>
-              </div>
-            </div>
-        </div>
-        ))}
-      </div>
+        
     </div>
     
     </div>
